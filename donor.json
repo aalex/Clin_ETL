@@ -1,0 +1,247 @@
+{
+  "institution": {
+    "MRN_InstitutionID": "string",
+    "patient_hospital": "string"
+  },
+  "patient_data": {
+    "MRN_Patient": "string",
+    "last_name": "string",
+    "first_name": "string",
+    "birth_DD/MM/YY": "string",
+    "fetus": "boolean",
+    "consanguinity": "boolean",
+    "ethnicity": "string",
+    "race": "string",
+    "phenotype": "string",
+    "proband": "boolean",
+    "physician": {
+      "name": "string",
+      "institution": "string",
+      "phone": "string",
+      "fax": "string"
+    },
+    "pregnancy": {
+      "prematurity": {
+        "prematurity": "string",
+        "description": "string"
+      },
+      "ultrasound_findings": {
+        "abnormal": "string",
+        "description": "string"
+      }
+    },
+    "family_history": "string"
+  },
+  
+  "family": {
+    "idFamily": "string",
+    "familyDesign": "string",
+    "familyName": "string",
+    "relatives": {
+      "motherId": "string",
+      "fatherId": "string",
+      "childId": "string"
+    }
+  },
+  
+  "CGH": {
+    "abnormal": "boolean",
+    "text": "string"
+  },
+  
+  "clinical_data": {
+    "clinical_investigation_summary": "string",
+    "neurological": {
+      "DMM": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "delayed_speech": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "dev_regression": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "autism": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "ID": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "hypotonia": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "seizure": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "ataxia": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_mouvement": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_brain": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "brain_image_abnormal": {
+        "abnormal": "string",
+        "description": "string"
+      }
+    },
+    "growth": {
+      "IGR": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "short_stature": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "feeding_difficulties": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "failure_to_thrive": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "obesity": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "microcephaly": {
+        "abnormal": "string",
+        "description": "string"
+      }
+    },
+    "head_and_neck": {
+      "dysmorphic": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_cranial_shape": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_forehead": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_hair": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "ear_dysmorphisms": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "hearing_loss": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "eye_abnormalies": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "vision_loss": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "nose_dismorphism": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "mouth_dismorphism": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "face_characteristics": {
+        "abnormal": "string",
+        "description": "string"
+      }
+    },
+    "skeletal": {
+      "hyperextensibility": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "joint_contractures": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "skeleton_malformations": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_bone": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "scoliosis": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "limb_malformation": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "hand_anomalies": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "feet_anomalies": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "hemihypertrophy": {
+        "abnormal": "string",
+        "description": "string"
+      }
+    },
+    "other": {
+      "congenital_heart_disease": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "genital_anomalies": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "abnormal_kidney": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "intestinal_problems": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "organomegaly": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "cancer": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "other_dysmorphic": {
+        "abnormal": "string",
+        "description": "string"
+      },
+      "skin_anomalies": {
+        "abnormal": "string",
+        "description": "string"
+      }
+    }
+  },
+  "dianostic_hypothesis": "string"
+}
+
